@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: perfilz
+    env: docker
+    plan: free
