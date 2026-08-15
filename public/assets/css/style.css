@@ -1486,7 +1486,6 @@ nav a.nav-cta:hover {
 /* =========================
    RESPONSIVO
 ========================= */
-
 @media (max-width: 800px) {
 
     .sobre-conteudo {
@@ -1504,6 +1503,33 @@ nav a.nav-cta:hover {
 
     .topo-secao-esquerda h2::after {
         margin: 12px auto 0 auto;
+    }
+
+    .sobre-imagem {
+        width: 100%;
+        height: auto !important;
+        min-height: 0 !important;
+        max-height: none !important;
+        overflow: hidden;
+    }
+
+    .sobre-imagem img {
+        width: 100%;
+        height: auto !important;
+        min-height: 0 !important;
+        max-height: none !important;
+        aspect-ratio: auto !important;
+        object-fit: contain !important;
+        display: block;
+        transform: none !important;
+    }
+
+    .sobre-imagem:hover {
+        transform: none;
+    }
+
+    .sobre-imagem:hover img {
+        transform: none !important;
     }
 }
 
